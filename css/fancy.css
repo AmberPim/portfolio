@@ -31,7 +31,7 @@ nav ul
 nav li a  /* Where you make the text pretty */
 {
     text-decoration: none;
-	font-size:1.8em;
+	font-size:3em;
 	font-weight: bold;
 	color:black;
 }
@@ -51,18 +51,23 @@ li a:hover
 {
 	text-align:center;
 	margin-top:2%;
-	font-size:2.8em;
+	font-size:3.5em;
 	text-shadow: 0 0 4px #e6f9ff;
 }
 
 .text
-{font-size:1.5em; width:70%; margin-left:auto; margin-right:auto;}
+{font-size:2.5em; width:70%; margin-left:auto; margin-right:auto; margin-top:2%;}
 
 #desktop
 {height:40vw; display:block; margin-left:auto; margin-right:auto; margin-top:5%; margin-bottom:5%;}
 
 .footerblok
 {height:10vw; width:100%; background: linear-gradient(to right, #e6f9ff , #ccf2ff, #80dfff);}
+
+/* Wie ben ik */
+
+#building
+{height:40vw; display:block; margin-left:auto; margin-right:auto; margin-top:5%; margin-bottom:5%;}
 /* Responsive */
 
 /* Extra small devices (portrait phones, less than 576px*/
@@ -106,7 +111,7 @@ li a:hover
 	{font-size:2.5em; margin-top:8%;}
 	
 	 .text
-	{font-size:1.6em; margin-top:3%;}
+	{font-size:1.8em; margin-top:3%;}
 	
 	#desktop
 	{height:65vw;}
@@ -117,17 +122,17 @@ li a:hover
  {
 	 /*home */
 	  .welcome 
-	{font-size:3em; margin-top:8%;}
+	{font-size:3.2em; margin-top:8%;}
 	
 	 .text
-	{font-size:1.8em; margin-top:3%;}
+	{font-size:2.2em; margin-top:3%;}
 	
 	#desktop
 	{height:70vw;}
 	
 	nav li a  /* Where you make the text pretty */
 	{
-	font-size:2em;
+	font-size:2.6em;
 	}
  }
  
