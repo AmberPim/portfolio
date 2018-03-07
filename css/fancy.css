@@ -1,1 +1,82 @@
+*
+{
+	padding:0%;
+	margin:0%;
+}
+body
+{	
+	width:100%;
+	font-family: 'Karma', serif;
+	background: linear-gradient(to right, deepskyblue , #0086b3);
+}
 
+/* Navigation */
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display:flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	justify-content:space-around;
+	-webkit-justify-content:space-around;
+	background-color:white;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+nav li a  /* Where you make the text pretty */
+{
+    text-decoration: none;
+	font-size:1.8em;
+	color:black;
+}
+
+li a:hover
+{
+	color:DeepSkyBlue;
+	transition: 0.4s;
+	
+}
+
+#banner
+{width:100%;}
+
+/* Homepage */
+
+.welcome
+{
+	text-align:center;
+	margin-top:2%;
+	font-size:2.4em;
+}
+
+/* Responsive */
+
+/* Extra small devices (portrait phones, less than 576px*/
+@media screen and (max-width: 575px)
+ {
+	 
+ } 
+ 
+ /* Small devices (landscape phones, 576 px and up) */
+  @media screen and (min-width:576px) and (max-width:767px)
+ {
+ }
+ 
+ /* Medium devices (tablets, 768 px and up */
+ @media screen and (min-width: 768px) and (max-width:991px)
+ {
+ }
+ 
+ /* Large devices (desktops, 992px and up */
+ @media screen and (max-width:1199px) and (min-width: 992px) 
+ {
+ }
+ 
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media screen and (min-width:1200px)
+ {
+ }
+ 
