@@ -31,7 +31,7 @@ nav ul
 nav li a  /* Where you make the text pretty */
 {
     text-decoration: none;
-	font-size:3em;
+	font-size:2.8em;
 	font-weight: bold;
 	color:black;
 }
@@ -93,6 +93,13 @@ li a:hover
 	
 	.footerblok
 	{height:20vw;}
+	
+	/* Wie ben ik */
+	
+	#building
+	{height:55vw;}
+	
+	
 
  } 
  
@@ -107,6 +114,9 @@ li a:hover
 	 
 	 /*home */
 	 
+	 nav li a
+	 {font-size:2em;}
+	 
 	 .welcome 
 	{font-size:2.5em; margin-top:8%;}
 	
@@ -115,6 +125,11 @@ li a:hover
 	
 	#desktop
 	{height:65vw;}
+	
+		/* Wie ben ik */
+	
+	#building
+	{height:55vw;}
  }
  
  /* Large devices (desktops, 992px and up */
@@ -134,6 +149,13 @@ li a:hover
 	{
 	font-size:2.6em;
 	}
+	
+	/* Wie ben ik */
+	
+	#building
+	{height:55vw;}
+	
+	
  }
  
  /* Extra large devices (large desktops, 1200px and up) */
