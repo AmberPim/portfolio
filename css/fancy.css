@@ -10,6 +10,8 @@ body
 	background: linear-gradient(to right, deepskyblue , #0086b3);
 }
 
+
+
 /* Navigation */
 nav ul
 {
@@ -21,7 +23,7 @@ nav ul
 	flex-direction:row;
 	justify-content:space-around;
 	-webkit-justify-content:space-around;
-	background-color:white;
+	background: linear-gradient(to right, #e6f9ff , #ccf2ff, #80dfff);
 	padding-top:1%;
 	padding-bottom:1%;
 }
@@ -30,14 +32,14 @@ nav li a  /* Where you make the text pretty */
 {
     text-decoration: none;
 	font-size:1.8em;
+	font-weight: bold;
 	color:black;
 }
 
 li a:hover
 {
 	color:DeepSkyBlue;
-	transition: 0.4s;
-	
+	transition: 0.4s;	
 }
 
 #banner
@@ -49,15 +51,44 @@ li a:hover
 {
 	text-align:center;
 	margin-top:2%;
-	font-size:2.4em;
+	font-size:2.8em;
+	text-shadow: 0 0 4px #e6f9ff;
 }
 
+.text
+{font-size:1.5em; width:70%; margin-left:auto; margin-right:auto;}
+
+#desktop
+{height:40vw; display:block; margin-left:auto; margin-right:auto; margin-top:5%; margin-bottom:5%;}
+
+.footerblok
+{height:10vw; width:100%; background: linear-gradient(to right, #e6f9ff , #ccf2ff, #80dfff);}
 /* Responsive */
 
 /* Extra small devices (portrait phones, less than 576px*/
 @media screen and (max-width: 575px)
  {
+	 nav ul
+	 {flex-direction:column; text-align:center;}
 	 
+	 nav li a  /* Where you make the text pretty */
+	{
+	font-size:1.5em;
+	}
+	
+	/*home */
+	.welcome 
+	{font-size:2em; margin-top:8%; width:70%; margin-left:auto; margin-right:auto;}
+	
+	.text
+	{font-size:1.4em; margin-top:8%;}
+	
+	#desktop
+	{height:70vw; margin-top:8%;}
+	
+	.footerblok
+	{height:20vw;}
+
  } 
  
  /* Small devices (landscape phones, 576 px and up) */
@@ -68,11 +99,36 @@ li a:hover
  /* Medium devices (tablets, 768 px and up */
  @media screen and (min-width: 768px) and (max-width:991px)
  {
+	 
+	 /*home */
+	 
+	 .welcome 
+	{font-size:2.5em; margin-top:8%;}
+	
+	 .text
+	{font-size:1.6em; margin-top:3%;}
+	
+	#desktop
+	{height:65vw;}
  }
  
  /* Large devices (desktops, 992px and up */
  @media screen and (max-width:1199px) and (min-width: 992px) 
  {
+	 /*home */
+	  .welcome 
+	{font-size:3em; margin-top:8%;}
+	
+	 .text
+	{font-size:1.8em; margin-top:3%;}
+	
+	#desktop
+	{height:70vw;}
+	
+	nav li a  /* Where you make the text pretty */
+	{
+	font-size:2em;
+	}
  }
  
  /* Extra large devices (large desktops, 1200px and up) */
