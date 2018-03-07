@@ -68,6 +68,27 @@ li a:hover
 
 #building
 {height:40vw; display:block; margin-left:auto; margin-right:auto; margin-top:5%; margin-bottom:5%;}
+
+/* Projecten */
+.project2
+{background-color:#ccf2ff; padding-top:5%; padding-bottom:5%;}
+
+.project1
+{background-color:#80dfff; padding-top:5%; padding-bottom:5%;}
+
+.projects
+{text-align:center; margin-top:2%; font-size:2em;}
+
+.uitleg
+{font-size:1.6em; width:70%; margin-left:auto; margin-right:auto; margin-top:2%;}
+
+.sitepic
+{height:90vw; display:block; margin-left:auto; margin-right:auto; margin-top:5%; margin-bottom:5%;}
+
+.sitepic2
+{height:55vw; display:block; margin-left:auto; margin-right:auto; margin-top:5%; margin-bottom:5%;}
+
+
 /* Responsive */
 
 /* Extra small devices (portrait phones, less than 576px*/
@@ -98,6 +119,12 @@ li a:hover
 	
 	#building
 	{height:55vw;}
+	
+	.projects
+	{font-size:1.6em;}
+
+	.uitleg
+	{font-size:1.4em;}
 	
 	
 
@@ -130,6 +157,12 @@ li a:hover
 	
 	#building
 	{height:55vw;}
+	
+	.projects
+	{font-size:2em;}
+
+	.uitleg
+	{font-size:1.8em;}
  }
  
  /* Large devices (desktops, 992px and up */
@@ -155,6 +188,11 @@ li a:hover
 	#building
 	{height:55vw;}
 	
+	.projects
+	{font-size:2em;}
+
+	.uitleg
+	{font-size:2em;}
 	
  }
  
