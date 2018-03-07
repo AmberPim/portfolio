@@ -88,6 +88,28 @@ li a:hover
 .sitepic2
 {height:55vw; display:block; margin-left:auto; margin-right:auto; margin-top:5%; margin-bottom:5%;}
 
+/* Contact*/
+	
+	#contacttable
+	{width:75%; margin-left:auto; margin-right:auto;}
+	
+	#contacttable td
+	{
+	 font-size:2em;
+	}
+	
+	.box
+	{height:2vw; width:25vw;font-size:1em;}
+	
+	.box2
+	{height:2vw; width:25vw;font-size:1em;}
+	
+	.box3
+	{height:12vw; width:25vw;font-size:1em;}
+	
+	.zend
+	{height:2vw; width:25vw; font-size:1em;}
+
 
 /* Responsive */
 
@@ -126,7 +148,27 @@ li a:hover
 	.uitleg
 	{font-size:1.4em;}
 	
+	/* Contact*/
 	
+	#contacttable
+	{width:75%; margin-left:auto; margin-right:auto;}
+	
+	#contacttable td
+	{
+	 font-size:1.2em;
+	}
+	
+	.box
+	{height:6vw; width:40vw;font-size:0.7em;}
+	
+	.box2
+	{height:6vw; width:40vw;font-size:0.7em;}
+	
+	.box3
+	{height:24vw; width:40vw;font-size:0.7em;}
+	
+	.zend
+	{height:6vw; width:40vw; font-size:0.7em; margin-bottom:5%;}
 
  } 
  
@@ -163,6 +205,19 @@ li a:hover
 
 	.uitleg
 	{font-size:1.8em;}
+	
+	.box
+	{height:6vw; width:40vw;font-size:0.7em;}
+	
+	.box2
+	{height:6vw; width:40vw;font-size:0.7em;}
+	
+	.box3
+	{height:24vw; width:40vw;font-size:0.7em;}
+	
+	.zend
+	{height:6vw; width:40vw; font-size:0.7em; margin-bottom:5%;}
+
  }
  
  /* Large devices (desktops, 992px and up */
@@ -193,6 +248,18 @@ li a:hover
 
 	.uitleg
 	{font-size:2em;}
+	
+	.box
+	{height:6vw; width:40vw;font-size:0.7em;}
+	
+	.box2
+	{height:6vw; width:40vw;font-size:0.7em;}
+	
+	.box3
+	{height:24vw; width:40vw;font-size:0.7em;}
+	
+	.zend
+	{height:6vw; width:40vw; font-size:0.7em; margin-bottom:5%;}
 	
  }
  
